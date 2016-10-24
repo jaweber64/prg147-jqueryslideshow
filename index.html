@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang = "en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery Slide Show With Timer</title>
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-indigo.css">
+    <link rel="stylesheet" href="mystyles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+</head>
+
+<body>
+
+<div id="container" class="w3-panel w3-round-xlarge mybdr">
+    <header class="w3-panel w3-round head" >
+        <h1>jQuery Slide Show with Timer</h1>
+    </header>
+
+    <div class="w3-panel w3-round-xlarge mybdr">
+        <h2>Around My Yard</h2>
+        <h5>Click on the slide to stop/start.</h5>
+
+        <div id ="slideshow" class="w3-panel w3-round-xlarge">
+            <p>&nbsp;</p>
+            <h3 id= "slideTitle">Pink Clematis</h3>
+
+            <img id = "main_image" src="images/JSSlideShow01.png">
+            <div id="slides">
+                <img src="images/JSSlideShow01.png" alt="">
+                <img src="images/JSSlideShow02.png" alt="">
+                <img src="images/JSSlideShow03.png" alt="">
+                <img src="images/JSSlideShow04.png" alt="">
+                <img src="images/JSSlideShow05.png" alt="">
+                <img src="images/JSSlideShow06.png" alt="">
+                <img src="images/JSSlideShow07.png" alt="">
+                <img src="images/JSSlideShow08.png" alt="">
+                <img src="images/JSSlideShow09.png" alt="">
+                <img src="images/JSSlideShow10.png" alt="">
+                <img src="images/JSSlideShow11.png" alt="">
+            </div>
+            <p id="caption"> A beautiful climbing flower, six inches across - growing along the wall below our deck.</p>
+        </div><!--end slideshow-->
+        <p>&nbsp;</p>
+    </div>
+
+    <footer class="w3-panel w3-round footer">
+        <div class="w3-row">
+            <div class="w3-half left-footer">
+                &copy Janet Weber
+            </div>
+            <div class="w3-half right-footer">
+                PRG-147 Fall 2016
+            </div>
+        </div>
+    </footer>
+</div><!-- end container -->
+
+<script src="jqslideshow.js"></script>
+</body>
+</html>
